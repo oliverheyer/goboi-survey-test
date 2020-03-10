@@ -1,0 +1,86 @@
+
+
+
+.frame{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    min-height: 100px;
+    background-color: #5bc1e6;
+    font-family: 'Trade Winds', cursive;
+    font-size: 25px;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    margin-left: .5%;
+    margin-right: .5%;
+    border-radius: 10px;
+
+    
+  
+}
+
+.text:hover{
+    
+    cursor: pointer;
+    /* box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5); */
+    transform: scale(1.1);
+    transition: transform 150ms;
+}
+
+.text{
+    padding-top: 15px;
+}
+
+
+.body{
+    min-height: 400px;
+    margin-top: 3%;
+    background-color: #ffffff;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    margin-left: .5%;
+    margin-right: .5%;
+    border-radius: 10px;
+
+}
+
+.image{
+    width: 100%;
+    border-radius: 10px;
+
+    
+}
+
+.footer{
+    min-height: 10px;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    
+    
+    background-color: #7fbf19;
+    font-family: 'Trade Winds', cursive;
+
+    width: 50%;
+    height: 50%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+@media screen and (max-width: 600px), sreen\0{
+    .image{
+        float: initial;
+        width: 100%;
+        margin: 0px;
+    }
+}
+
